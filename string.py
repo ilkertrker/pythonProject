@@ -23,6 +23,36 @@ long_str
 "Veri" in long_str
 
 #strig methodologies#
-
 dir(int)
-dir()
+dir(str)
+
+#len fonksion#
+name = "john"
+type(name)
+type(len)
+len(name)
+len("slovakia")
+
+#upper() & lower()#
+"course".upper()
+"IDEAL COURSER".lower()
+
+#type(upper)
+#type(upper())
+
+#replace#
+hi = "hello greating boi"
+hi.replace("l", "p")
+
+#splipt#
+"hello My name".split()
+
+#strip
+" aşldmalşsdm ".strip()
+" aşldmalşsdm ".strip("l")
+
+#capitalize
+"cho".capitalize()
+
+#starts with
+"ohh".startswith("o")
