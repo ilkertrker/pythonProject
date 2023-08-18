@@ -116,3 +116,46 @@ def calculate(varm, moisture, charge):
 
 type(calculate(98, 12, 77))
 varm, moisture, charge, output = calculate(98, 12, 77)
+
+
+########Calling function from function
+
+def calculate(varm, moisture, charge):
+    return int((varm + moisture) / charge)
+
+
+calculate(90, 12, 20) * 10
+
+
+def standardization(a, p):
+    return a * 10 / 100 * p * p
+
+
+standardization(45, 1)
+
+
+def all_caltculation(varm, moisture, charge, p):
+    a = calculate(varm, moisture, charge)
+    b = standardization(a, p)
+    print(b * 10)
+
+
+all_caltculation(1, 3, 5, 10)
+
+def all_caltculation(varm, moisture, charge, a, p):
+    print(calculate(varm, moisture, charge))
+    b = standardization(a, p)
+    print(b * 10)
+
+
+all_caltculation(1, 3, 5, 10, 9)
+
+#########Local and Global Variables###
+list_store = [1, 2]
+
+def add_element(a, b):
+    c = a * b
+    list_store.append(c)
+    print(list_store)
+
+add_element(1, 9)
