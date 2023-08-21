@@ -54,3 +54,9 @@ a*c #you can make some math with it#
 #conda env create -f environment.yaml
 #conda avtiate
 
+
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.io as pio
+

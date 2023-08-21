@@ -51,3 +51,19 @@ def number_check(number):
 
 number_check(10)
 
+
+
+################################################
+### lambda, map, filter, reduce
+####################################
+
+def summer(a, b):
+    return a + b
+summer(1, 3) * 9
+
+new_sum = lambda a, b: a + b
+new_sum(4, 5)
+
+### map function
+
+salaries = [100, 2000, 3000, 4000, 5000]
