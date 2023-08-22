@@ -22,7 +22,6 @@ c = 10
 a*c #you can make some math with it#
 
 #virtual Environment#
-#create Vir. Env. #
 #conda create -n myenv
 #conda activate mynev
 #conda activate myenv
